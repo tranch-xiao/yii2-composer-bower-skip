@@ -1,4 +1,4 @@
-# yii2-composer-bower-skip
+# Yii2-Composer-Bower-skip
 
 A composer package that allows you to install or update yii2 without bower-asset (without composer-asset-plugin).
 
