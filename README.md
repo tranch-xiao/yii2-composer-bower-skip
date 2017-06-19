@@ -24,19 +24,17 @@ Example json:
 
 After that, you can do the `composer update` without bower-asset.
 
----
 
 ### How to use when installing Yii2 via Composer
 
 If you did not install yii from an Archive File but installed via Composer, we don't recommend you to globally require `yii2-composer-bower-skip` before create-project.
 
-Instead, you can install Yii2 by using [yidas/yii2-app-light](https://github.com/yidas/yii2-app-light) package:
+Instead, you can install Yii2 by using [yidas/yii2-app-lite](https://github.com/yidas/yii2-app-lite) package:
 
-    php composer.phar create-project yidas/yii2-app-light
+    composer create-project yidas/yii2-app-lite
 
 Above package includes yii2 framework with `yii2-composer-bower-skip` requiring in `composer.json` file already.
 
----
 
 ### Install & update bower-asset via Composer 
 
