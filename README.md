@@ -1,12 +1,14 @@
-# Yii2-Composer-Bower-skip
+Yii2-Composer-Bower-skip
+=====
 
-A composer package that allows you to install or update yii2 without bower-asset (without composer-asset-plugin).
+A composer package that allows you to install or update yii2 without bower-asset.
 
-After requiring this composer, Bower packages will not be updated, so you may need to manually update Bower-Asset when the further update of Yii2 core is needed.
+After requiring this composer, Bower packages will not be updated, so you need to manually update Bower-Asset if needed.
 
 ---
 
-## How to use?
+INSTALLATION
+-----
 
 In yii2 `composer.json`, require `yidas/yii2-composer-bower-skip` before `yiisoft/yii2`.
 
@@ -38,8 +40,4 @@ Above package includes yii2 framework with `yii2-composer-bower-skip` requiring 
 
 ## How to install & update bower-asset via Composer 
 
-If you need to use bower-asset package with Composer updating, instead of using this package, you can require [Composer Asset Plugin](https://github.com/fxpio/composer-asset-plugin) before install or update Composer: 
-
-```
-composer global require "fxp/composer-asset-plugin:^1.2.0"
-```
+Thanks to [Asset-Packagist](https://asset-packagist.org/), you can now install Yii2 smoothly with [new version](https://github.com/yiisoft/yii2-app-basic/commit/fc2ec7dfee9313288171e2fe8a5b80e22c1e1509).
