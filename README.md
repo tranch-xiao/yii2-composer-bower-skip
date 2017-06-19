@@ -26,7 +26,7 @@ After that, you can do the `composer update` without bower-asset.
 
 ---
 
-## How to use when installing Yii2 via Composer
+### How to use when installing Yii2 via Composer
 
 If you did not install yii from an Archive File but installed via Composer, we don't recommend you to globally require `yii2-composer-bower-skip` before create-project.
 
@@ -38,7 +38,7 @@ Above package includes yii2 framework with `yii2-composer-bower-skip` requiring 
 
 ---
 
-## How to install & update bower-asset via Composer 
+### Install & update bower-asset via Composer 
 
 Thanks to [Asset-Packagist](https://asset-packagist.org/), you can now install Yii2 smoothly with [new version](https://github.com/yiisoft/yii2-app-basic/commit/fc2ec7dfee9313288171e2fe8a5b80e22c1e1509).
 
