@@ -32,20 +32,18 @@ After that, you can run the `composer update` without Bower-Asset.
 
 ### How to use this for createing Yii2 project via Composer
 
-If you did not install Yii2 from an [Archive File](http://www.yiiframework.com/download/) but installed via Composer, there are some ways to create Yii2 project smoothly:
+If you did not install Yii2 from an [Archive File](http://www.yiiframework.com/download/) but installed via Composer, the Yii2 packagist on yiisoft will require Bower before install.
 
-1. You can create Yii2 project by using [yidas/yii2-app-lite](https://github.com/yidas/yii2-app-lite) package:  
-  ```
-  composer create-project yidas/yii2-app-lite
-  ```
-  This package contains yii2 framework with `yii2-composer-bower-skip` so that you don't need to handle Bower.
+You can create Yii2 project by using [yidas/yii2-app-lite](https://github.com/yidas/yii2-app-lite) package:  
 
-2. Thanks to [Asset-Packagist](https://asset-packagist.org/), you may install Yii2 smoothly with [new version](https://github.com/yiisoft/yii2-app-basic/commit/fc2ec7dfee9313288171e2fe8a5b80e22c1e1509) since release on Packagist.  
+    composer create-project yidas/yii2-app-lite
+
+This package contains yii2 framework with `yii2-composer-bower-skip` so that you don't need to handle Bower. 
 
 
 ### Install & update Bower-Asset via Composer 
 
-You can use [Asset-Packagist](https://asset-packagist.org/) to install or update Bower-Asset.
+Thanks to [Asset-Packagist](https://asset-packagist.org/), you may install Bower smoothly in Yii2 with [new version](https://github.com/yiisoft/yii2-app-basic/commit/fc2ec7dfee9313288171e2fe8a5b80e22c1e1509) since release on Packagist. 
 
 Check you Yii2 application config before using asset-packagist:
 
