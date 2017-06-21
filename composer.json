@@ -1,6 +1,6 @@
 {
 	"name": "yidas/yii2-composer-bower-skip",
-	"description": "A meta package that allows you to install yii2 without bower-asset (without composer-asset-plugin).",
+	"description": "A composer package that allows you to install or update Yii2 without Bower-Asset",
 	"type": "library",
   	"license": "BSD-3-Clause",
 	"provide": {
