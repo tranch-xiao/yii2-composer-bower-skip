@@ -6,7 +6,7 @@ Yii2 Composer Bower Skip
 [![Latest Unstable Version](https://poser.pugx.org/yidas/yii2-composer-bower-skip/v/unstable)](https://packagist.org/packages/yidas/yii2-composer-bower-skip)
 [![License](https://poser.pugx.org/yidas/yii2-composer-bower-skip/license)](https://packagist.org/packages/yidas/yii2-composer-bower-skip)
 
-A composer package that allows you to install or update yii2 without Bower-Asset.
+A composer package that allows you to install or update Yii2 without Bower-Asset.
 
 After requiring this composer, Bower packages will not be install or update, so you need to manually update Bower-Asset if needed.
 
@@ -15,9 +15,9 @@ After requiring this composer, Bower packages will not be install or update, so 
 INSTALLATION
 ------------
 
-In yii2 `composer.json`, require `yidas/yii2-composer-bower-skip` before `yiisoft/yii2`.
+In Yii2 `composer.json`, require `yidas/yii2-composer-bower-skip` before `yiisoft/yii2`.
 
-Example json:
+Example `composer.json`:
 ```
 "require": {
     "php": ">=5.4.0",
@@ -27,25 +27,30 @@ Example json:
 }
 ```
 
-After that, you can run the `composer update` without Bower-Asset.
+After that, you can run the `composer update` without handling Bower-Asset.
 
 
 ### How to use this for createing Yii2 project via Composer
 
-If you did not install Yii2 from an [Archive File](http://www.yiiframework.com/download/) but installed via Composer, the Yii2 packagist on yiisoft will require Bower before install.
+#### Yii2-App-Basic (Fixed Bower version):
 
-You can create Yii2 project by using [yidas/yii2-app-lite](https://github.com/yidas/yii2-app-lite) package:  
+You can create Yii2 project by using [yidas/yii2-app-basic](https://github.com/yidas/yii2-app-basic) package:  
 
-    composer create-project yidas/yii2-app-lite
+    composer create-project --prefer-dist yidas/yii2-app-basic
 
-This package contains yii2 framework with `yii2-composer-bower-skip` so that you don't need to handle Bower. 
+This package is Yii 2 Basic Application Template with fixed Bower vendor, which including `yii2-composer-bower-skip` already.
+
+
+#### Official Archive File
+
+You can download Yii2 from official [Archive File](http://www.yiiframework.com/download/) then manally install `yii2-composer-bower-skip` on it.
 
 
 ### Install & update Bower-Asset via Composer 
 
 Thanks to [Asset-Packagist](https://asset-packagist.org/), you may install Bower smoothly in Yii2 with [new version](https://github.com/yiisoft/yii2-app-basic/commit/fc2ec7dfee9313288171e2fe8a5b80e22c1e1509) since release on Packagist. 
 
-Check you Yii2 application config before using asset-packagist:
+Check your Yii2 application config before using asset-packagist:
 
     $config = [
         ...
