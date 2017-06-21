@@ -41,10 +41,11 @@ You can create Yii2 project by using [yidas/yii2-app-basic](https://github.com/y
 This package is Yii 2 Basic Application Template with fixed Bower vendor, which including `yii2-composer-bower-skip` already.
 
 
-#### Official Archive File
+#### Official Archive File:
 
 You can download Yii2 from official [Archive File](http://www.yiiframework.com/download/) then manally install `yii2-composer-bower-skip` on it.
 
+---
 
 ### Install & update Bower-Asset via Composer 
 
