@@ -53,11 +53,13 @@ Thanks to [Asset-Packagist](https://asset-packagist.org/), you may install Bower
 
 Check your Yii2 application config before using asset-packagist:
 
-    $config = [
-        ...
-        'aliases' => [
-            '@bower' => '@vendor/bower-asset',
-            '@npm'   => '@vendor/npm-asset',
-        ],
-        ...
-    ];
+```php
+$config = [
+    ...
+    'aliases' => [
+        '@bower' => '@vendor/bower-asset',
+        '@npm'   => '@vendor/npm-asset',
+    ],
+    ...
+];
+```
