@@ -1,12 +1,12 @@
 Yii2 Composer Bower Skip
 ========================
 
+A composer package that allows you to install or update Yii2 without Bower-Asset.
+
 [![Latest Stable Version](https://poser.pugx.org/yidas/yii2-composer-bower-skip/v/stable)](https://packagist.org/packages/yidas/yii2-composer-bower-skip)
 [![Total Downloads](https://poser.pugx.org/yidas/yii2-composer-bower-skip/downloads)](https://packagist.org/packages/yidas/yii2-composer-bower-skip)
 [![Latest Unstable Version](https://poser.pugx.org/yidas/yii2-composer-bower-skip/v/unstable)](https://packagist.org/packages/yidas/yii2-composer-bower-skip)
 [![License](https://poser.pugx.org/yidas/yii2-composer-bower-skip/license)](https://packagist.org/packages/yidas/yii2-composer-bower-skip)
-
-A composer package that allows you to install or update Yii2 without Bower-Asset.
 
 After requiring this composer, Bower packages will not be install or update, so you need to manually update Bower-Asset if needed.
 
